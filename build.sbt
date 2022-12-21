@@ -8,12 +8,8 @@ scalacOptions ++= Seq("-deprecation", "-feature", "-unchecked", "-Yexplicit-null
 
 coverageEnabled := true
 
-libraryDependencies ++= Seq(
-  "org.scalatest"     %% "scalatest"  % "3.2.14"  % Test
-)
+libraryDependencies += "org.scalatest" %% "scalatest" % "3.2.14" % Test
 
-logBuffered := false
+//logBuffered := false
 
-Test / parallelExecution := false
-
-enablePlugins(JavaAppPackaging)
+//Test / parallelExecution := false
