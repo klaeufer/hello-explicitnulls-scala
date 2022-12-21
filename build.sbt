@@ -4,7 +4,7 @@ version := "0.1"
 
 scalaVersion := "3.2.1"
 
-scalacOptions ++= Seq("-deprecation", "-feature", "-unchecked", "-Yexplicit-nulls")//, "-Ysafe-init", "-language:strictEquality")
+scalacOptions ++= Seq("-deprecation", "-feature", "-unchecked", "-Yexplicit-nulls")
 
 coverageEnabled := true
 
