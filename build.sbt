@@ -9,7 +9,3 @@ scalacOptions ++= Seq("-deprecation", "-feature", "-unchecked", "-Yexplicit-null
 coverageEnabled := true
 
 libraryDependencies += "org.scalatest" %% "scalatest" % "3.2.14" % Test
-
-//logBuffered := false
-
-//Test / parallelExecution := false
